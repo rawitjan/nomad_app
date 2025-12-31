@@ -83,27 +83,29 @@ const WorldMap: React.FC = () => {
                 html: iconHtml,
                 iconSize: [32, 32],
                 iconAnchor: [16, 16],
-                popupAnchor: [0, -20] // Lift popup clearly above marker
+                popupAnchor: [0, -32] // Adjusted to be higher to avoid overlapping
             });
 
             // Popup Content
             const popupContent = document.createElement('div');
-            popupContent.className = 'min-w-[200px] bg-neo-dark text-white p-2 rounded-lg font-sans'; // Increased padding
+            popupContent.className = 'min-w-[220px] bg-neo-dark text-white p-0 rounded-xl font-sans shadow-2xl'; // Removed padding from container
             popupContent.innerHTML = `
-                <div class="flex items-start gap-3 p-1">
-                    <img src="${place.images[0]}" class="w-12 h-12 rounded-lg object-cover bg-white/10" />
-                    <div>
-                        <h3 class="font-bold text-sm text-white leading-tight mb-1">${place.name[language]}</h3>
+                <div class="flex items-start gap-3 p-3">
+                    <img src="${place.images[0]}" class="w-14 h-14 rounded-lg object-cover bg-white/10 shrink-0" />
+                    <div class="overflow-hidden">
+                        <h3 class="font-bold text-sm text-white leading-tight mb-1 truncate pr-1">${place.name[language]}</h3>
                         <div class="flex items-center gap-1 text-[10px] text-neo-lime font-mono">
                             <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
                             ${dist} ${t.planner.km}
                         </div>
                     </div>
                 </div>
-                <button id="btn-${place.id}" class="mt-2 w-full bg-white/10 hover:bg-white/20 text-xs font-bold py-1.5 rounded-md text-center transition-colors flex items-center justify-center gap-1">
-                    ${t.details.viewDetails}
-                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-                </button>
+                <div class="px-3 pb-3">
+                    <button id="btn-${place.id}" class="w-full bg-white/10 hover:bg-white/20 text-xs font-bold py-2 rounded-lg text-center transition-colors flex items-center justify-center gap-1.5 border border-white/5">
+                        ${t.details.viewDetails}
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
             `;
 
             const marker = L.marker([place.coordinates.lat, place.coordinates.lng], { icon })
@@ -111,7 +113,8 @@ const WorldMap: React.FC = () => {
                 .bindPopup(popupContent, {
                     closeButton: false,
                     className: 'neo-popup',
-                    offset: [0, 0] // Anchor handles offset now
+                    offset: [0, 0],
+                    autoPanPadding: [50, 50] // Add padding to prevent clipping at edges
                 });
 
             // Handle button click inside popup
@@ -151,16 +154,20 @@ const WorldMap: React.FC = () => {
                 .leaflet-popup-content-wrapper {
                     background: #1A2F23;
                     border: 1px solid rgba(255,255,255,0.1);
-                    border-radius: 12px;
+                    border-radius: 16px;
                     padding: 0;
-                    overflow: hidden;
+                    overflow: visible; /* changed from hidden to visible in case shadows are cut, but content inside is masked */
                 }
                 .leaflet-popup-tip {
                     background: #1A2F23;
                     border-top: 1px solid rgba(255,255,255,0.1);
                 }
                 .leaflet-popup-content {
-                    margin: 0; /* Remove default margin to let inner div handle padding */
+                    margin: 0 !important;
+                    width: auto !important;
+                }
+                .neo-popup {
+                    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
                 }
             `}</style>
         </div>

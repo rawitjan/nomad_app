@@ -46,7 +46,7 @@ const Preloader: React.FC = () => {
           initial={{ y: 100 }}
           animate={{ y: 0 }}
           transition={{ duration: 1, ease: "circOut" }}
-          className="text-[12vw] leading-none font-black font-display text-transparent stroke-text select-none opacity-20"
+          className="text-[12vw] md:text-[15vw] leading-none font-black font-display text-transparent stroke-text select-none opacity-20 whitespace-nowrap"
           style={{ WebkitTextStroke: '1px #F5E6CA' }}
         >
           NOMAD

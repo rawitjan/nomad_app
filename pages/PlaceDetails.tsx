@@ -123,17 +123,25 @@ const PlaceDetails: React.FC = () => {
   };
 
   const handleShare = async () => {
+    const shareData = {
+      title: place.name[language],
+      text: place.description[language],
+      url: window.location.href,
+    };
+
     if (navigator.share) {
       try {
-        await navigator.share({
-          title: place.name[language],
-          text: place.description[language],
-          url: window.location.href,
-        });
-      } catch (error) { console.log('Error sharing', error); }
+        await navigator.share(shareData);
+      } catch (error) {
+        console.log('Error sharing', error);
+      }
     } else {
-      navigator.clipboard.writeText(window.location.href);
-      alert('Link copied to clipboard!');
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        alert('Link copied to clipboard!');
+      } catch (err) {
+        console.error('Failed to copy: ', err);
+      }
     }
   };
 

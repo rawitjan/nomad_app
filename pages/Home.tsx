@@ -166,7 +166,7 @@ const Home: React.FC = () => {
           
           <motion.h1 
             style={{ y: textY, opacity }}
-            className="absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[20vw] font-display font-black text-white/5 whitespace-nowrap select-none z-0"
+            className="absolute top-[25%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[15vw] font-display font-black text-white/5 whitespace-nowrap select-none z-0"
           >
             NOMAD
          </motion.h1>
