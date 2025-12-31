@@ -1,0 +1,7 @@
+{
+  "name": "NOMAD",
+  "description": "NOMAD: Spirit of the Steppe. A stunning Neo-Nomad travel guide and route planner for Kazakhstan.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
