@@ -210,11 +210,9 @@ export const PLACES: Place[] = [
       RU: 'Великолепное творение выветривания и эрозии, расположенное на плато Устюрт. Инопланетный пейзаж.'
     },
     season: { EN: 'May/September', KZ: 'Мамыр/Қыркүйек', RU: 'Май/Сентябрь' },
-    coordinates: { lat: 43.9167, lng: 53.5333 },
+    coordinates: { lat: 43.2430, lng: 54.0613 },
     images: [
-        "https://images.unsplash.com/photo-1629196914375-f7e48f477b6d?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1518182170546-0766ce6fec56?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1605634289389-9b517e471962?q=80&w=1200&auto=format&fit=crop"
+        "https://drive.google.com/file/d/1PGeW2z3YZdn8UDRSHxVpAZO3bxATdwlr/preview"
     ],
     type: 'Desert',
     locationLabel: { EN: 'Mangystau', KZ: 'Маңғыстау', RU: 'Мангистау' },
