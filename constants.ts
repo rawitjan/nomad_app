@@ -212,7 +212,7 @@ export const PLACES: Place[] = [
     season: { EN: 'May/September', KZ: 'Мамыр/Қыркүйек', RU: 'Май/Сентябрь' },
     coordinates: { lat: 43.2430, lng: 54.0613 },
     images: [
-        "https://drive.google.com/file/d/1PGeW2z3YZdn8UDRSHxVpAZO3bxATdwlr/preview"
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQS0a-FHz7qHRr8ZUVn0IFwlAQL_PrinHBzLZrYl_DQhXHY?width=1920&height=1085"
     ],
     type: 'Desert',
     locationLabel: { EN: 'Mangystau', KZ: 'Маңғыстау', RU: 'Мангистау' },
