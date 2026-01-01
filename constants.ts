@@ -140,10 +140,8 @@ export const PLACES: Place[] = [
     season: { EN: 'Summer', KZ: 'Жаз', RU: 'Лето' },
     coordinates: { lat: 42.9922, lng: 78.3292 },
     images: [
-        "https://images.unsplash.com/photo-1596423985790-28e7e1f7c199?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1552656967-7a0fe8a4f853?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1627917765166-5e022b7a48d3?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1563804803980-08d13b41d01f?q=80&w=1200&auto=format&fit=crop"
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQTG27fJ9InrQ4J8Q2jRmgpkAVe926hAx1kL0xDrp-RGRsY?width=1600&height=1091",
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQSoyEjML1nqQLPrK2J2gACsAWjyAL0wKzbqYE5-OiRWK_0"
     ],
     type: 'Lake',
     locationLabel: { EN: 'Almaty Region', KZ: 'Алматы облысы', RU: 'Алматинская область' },
@@ -152,24 +150,24 @@ export const PLACES: Place[] = [
       {
         title: { EN: 'Lake View', KZ: 'Көл көрінісі', RU: 'Вид на озеро' },
         embedUrl: 'https://www.google.com/maps/embed?pb=!4v1767125030756!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJQ19nSURVcFFF!2m2!1d42.98827702099912!2d78.32559902232916!3f108.47421123404408!4f-30.979628549994445!5f0.7820865974627469',
-        thumbnailUrl: "https://images.unsplash.com/photo-1596423985790-28e7e1f7c199?q=80&w=400&auto=format&fit=crop"
+        thumbnailUrl: "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQSoyEjML1nqQLPrK2J2gACsAWjyAL0wKzbqYE5-OiRWK_0"
       },
     ],
     videoReviews: [
-        {
-            url: "https://assets.mixkit.co/videos/preview/mixkit-mountain-landscape-with-a-lake-in-the-background-40439-large.mp4",
-            creditName: "@almaty_travel_guide",
-            creditUrl: "https://instagram.com",
-            thumbnailUrl: "https://images.unsplash.com/photo-1596423985790-28e7e1f7c199?q=80&w=400&auto=format&fit=crop",
-            platform: 'instagram'
-        },
-        {
-            url: "https://assets.mixkit.co/videos/preview/mixkit-lake-surrounded-by-dry-grass-in-autumn-44588-large.mp4",
-            creditName: "@nomad_vibes",
-            creditUrl: "https://tiktok.com",
-            thumbnailUrl: "https://images.unsplash.com/photo-1552656967-7a0fe8a4f853?q=80&w=400&auto=format&fit=crop",
-            platform: 'tiktok'
-        }
+        // {
+        //     url: "https://assets.mixkit.co/videos/preview/mixkit-mountain-landscape-with-a-lake-in-the-background-40439-large.mp4",
+        //     creditName: "@almaty_travel_guide",
+        //     creditUrl: "https://instagram.com",
+        //     thumbnailUrl: "https://images.unsplash.com/photo-1596423985790-28e7e1f7c199?q=80&w=400&auto=format&fit=crop",
+        //     platform: 'instagram'
+        // },
+        // {
+        //     url: "https://assets.mixkit.co/videos/preview/mixkit-lake-surrounded-by-dry-grass-in-autumn-44588-large.mp4",
+        //     creditName: "@nomad_vibes",
+        //     creditUrl: "https://tiktok.com",
+        //     thumbnailUrl: "https://images.unsplash.com/photo-1552656967-7a0fe8a4f853?q=80&w=400&auto=format&fit=crop",
+        //     platform: 'tiktok'
+        // }
     ]
   },
   {
@@ -183,22 +181,20 @@ export const PLACES: Place[] = [
     season: { EN: 'Spring/Autumn', KZ: 'Көктем/Күз', RU: 'Весна/Осень' },
     coordinates: { lat: 43.3512, lng: 79.0809 },
     images: [
-        "https://images.unsplash.com/photo-1558588942-930faae5a389?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1533230490196-851965a3d706?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1627389955776-8533d3663a75?q=80&w=1200&auto=format&fit=crop"
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQSiF1jLL8WhQqeqxQ4-atdfAR4-CI3jkDnZJMo5HdvnxNU?width=1200&height=649"
     ],
     type: 'Canyon',
     locationLabel: { EN: 'Almaty Region', KZ: 'Алматы облысы', RU: 'Алматинская область' },
     isTrending: true,
     panoramas: [],
     videoReviews: [
-         {
-            url: "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-desert-canyon-4239-large.mp4",
-            creditName: "@charyn_official",
-            creditUrl: "https://instagram.com",
-            thumbnailUrl: "https://images.unsplash.com/photo-1558588942-930faae5a389?q=80&w=400&auto=format&fit=crop",
-            platform: 'instagram'
-        }
+        //  {
+        //     url: "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-a-desert-canyon-4239-large.mp4",
+        //     creditName: "@charyn_official",
+        //     creditUrl: "https://instagram.com",
+        //     thumbnailUrl: "https://images.unsplash.com/photo-1558588942-930faae5a389?q=80&w=400&auto=format&fit=crop",
+        //     platform: 'instagram'
+        // }
     ]
   },
   {
@@ -231,8 +227,7 @@ export const PLACES: Place[] = [
     season: { EN: 'Summer', KZ: 'Жаз', RU: 'Лето' },
     coordinates: { lat: 42.5902, lng: 78.2755 },
     images: [
-        "https://images.unsplash.com/photo-1605218439502-d9f75727918a?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1565554366650-719543884e62?q=80&w=1200&auto=format&fit=crop"
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQSyJlGfkKpXQrhBmSA91MJqAc9J9EMLILu9qbYObu3DHqo?width=1050&height=662"
     ],
     type: 'Lake',
     locationLabel: { EN: 'Almaty Region', KZ: 'Алматы облысы', RU: 'Алматинская область' },
@@ -251,9 +246,9 @@ export const PLACES: Place[] = [
     season: { EN: 'Autumn', KZ: 'Күз', RU: 'Осень' },
     coordinates: { lat: 43.0506, lng: 76.9850 },
     images: [
-        "https://images.unsplash.com/photo-1551801319-ca4c4dc20138?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1628267252876-0f8c2e688849?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1533230490196-851965a3d706?q=80&w=1200&auto=format&fit=crop"
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQQ6XDuunbZmRaEsk4AcJQz_ASG9azQ_dzOSjlOvljkW8CA",
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQSG7RMZGiB3Tp0VDF1ikLYIAUfegxO1zvHx5paa7SxNiSM",
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQRtNW63ETDuQLlnXQNbC-mGAViBpL4zsaW91PNz8BeV7Mo?width=1200&height=800"
     ],
     type: 'Mountain',
     locationLabel: { EN: 'Almaty City', KZ: 'Алматы қаласы', RU: 'Город Алматы' },
@@ -262,12 +257,12 @@ export const PLACES: Place[] = [
       {
         title: { EN: 'Lake View', KZ: 'Көл көрінісі', RU: 'Вид на озеро' },
         embedUrl: 'https://www.google.com/maps/embed?pb=!4v1767007161059!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDR6ZmVqRlE.!2m2!1d43.05055598882759!2d76.98500001989194!3f347.84548751185605!4f-10.268668952246912!5f0.7820865974627469',
-        thumbnailUrl: "https://images.unsplash.com/photo-1551801319-ca4c4dc20138?q=80&w=400&auto=format&fit=crop"
+        thumbnailUrl: "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQSG7RMZGiB3Tp0VDF1ikLYIAUfegxO1zvHx5paa7SxNiSM"
       },
       {
         title: { EN: 'Mountain Path', KZ: 'Тау жолы', RU: 'Горная тропа' },
         embedUrl: 'https://www.google.com/maps/embed?pb=!4v1628163901234!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJRDR6ZmVqRlE.!2m2!1d43.0505!2d76.9850!3f0!4f0!5f0.7820865974627469', // Mock different view
-        thumbnailUrl: "https://images.unsplash.com/photo-1628267252876-0f8c2e688849?q=80&w=400&auto=format&fit=crop"
+        thumbnailUrl: "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQRtNW63ETDuQLlnXQNbC-mGAViBpL4zsaW91PNz8BeV7Mo?width=1200&height=800"
       }
     ],
     videoReviews: []
@@ -283,13 +278,32 @@ export const PLACES: Place[] = [
     season: { EN: 'Summer/Winter', KZ: 'Жаз/Қыс', RU: 'Лето/Зима' },
     coordinates: { lat: 53.0864, lng: 70.2979 },
     images: [
-        "https://images.unsplash.com/photo-1595186938740-10906230f259?q=80&w=1200&auto=format&fit=crop",
-        "https://images.unsplash.com/photo-1589998059171-698f8d097826?q=80&w=1200&auto=format&fit=crop"
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQTEa_J5MnBATIzhCeWgZOaNAZefTWSqdehrYVbdJGfjbbw?width=1200&height=800",
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQRk4rBKqDIxT5SbHuWBvvmPAR6sa-hncdXfMtyel3JS3Yw?width=1998&height=1333"
     ],
     type: 'Mountain',
     locationLabel: { EN: 'Akmola Region', KZ: 'Ақмола облысы', RU: 'Акмолинская область' },
     isTrending: false,
     panoramas: [],
     videoReviews: []
-  }
+  },
+  {
+    id: '7',
+    name: { EN: 'Mount Bokty', KZ: 'Боқты тауы', RU: 'Гора Бокты' },
+    description: {
+      EN: 'A stunning layered mountain resembling an upside-down ship or a colorful cake. Famous for being depicted on the 1000 tenge banknote, it is a jewel of the Mangystau desert.',
+      KZ: 'Төңкерілген кемеге немесе түрлі-түсті тортқа ұқсайтын ерекше қатпарлы тау. 1000 теңгелік банкнотта бейнеленгенімен танымал, Маңғыстау шөлінің інжу-маржаны.',
+      RU: 'Удивительная слоистая гора, напоминающая перевернутый корабль или слоеный пирог. Знаменита тем, что изображена на купюре 1000 тенге, является жемчужиной Мангистау.'
+    },
+    season: { EN: 'Spring/Autumn', KZ: 'Көктем/Күз', RU: 'Весна/Осень' },
+    coordinates: { lat: 43.423155223639355, lng: 53.799376906734544 },
+    images: [
+        "https://1drv.ms/i/c/04e9ba91bdbfa0b2/IQSpQDrcwhCeR4BL_3KavjY7AVDzVT1gw27WotsIZ5b5j5w", 
+    ],
+    type: 'Mountain',
+    locationLabel: { EN: 'Mangystau Region', KZ: 'Маңғыстау облысы', RU: 'Мангистауская область' },
+    isTrending: false,
+    panoramas: [],
+    videoReviews: []
+  },
 ];
